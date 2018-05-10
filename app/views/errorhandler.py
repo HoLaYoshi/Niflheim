@@ -47,3 +47,7 @@ def server_error(e):
 @app.errorhandler(405)
 def server_error(e):
     return render_template('error/405.html'), 405
+
+@app.errorhandler(404)
+def server_error(e):
+    return render_template('error/404.html'), 405
