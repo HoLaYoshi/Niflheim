@@ -34,9 +34,8 @@ from main import app
 
 @app.errorhandler(500)
 def server_error(e):
-    # Log the error and stacktrace.
-    logging.exception('An error occurred during a request.')
-    return 'An internal error occurred.', 500
+    return render_template('error/404.html'), 404
+
 
 
 @app.errorhandler(400)
