@@ -1,5 +1,5 @@
 ### Niflheim : 一个简单的基于GAE的单用户博客程序
-
+![Powered by Google App Engine](https://cloud.google.com/appengine/images/appengine-silver-120x30.gif)
 
 对于博客程序，试图在简单（托管）和复杂（自建）之间找到一个平衡，所以制作了这个程序。
 基于App Engine的优点：简单，不需要维护基础设施。高度可定制化，无广告，可绑定域名。
@@ -43,3 +43,5 @@
 尼福尔海姆（Niflheim）。在北欧神话中，其义为“雾之国”（Mist-home）。是个终年充满浓雾，寒冷的地区。
 
 万年没人看，很适合这个名字。
+
+
