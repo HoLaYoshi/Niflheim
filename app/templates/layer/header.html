@@ -22,7 +22,7 @@
                 <nav id="nav-menu" class="clearfix" role="navigation">
                     <a {% if request.path == "/" %}class="current"{% endif %} href="{{ config.SITE_URL }}">首页</a>
                     {% for page in pages %}
-                        <a {% if request.path == url_for("post" ,slug=page.slug ) %}class="current"{% endif %} href="{{ url_for("page" ,slug=page.slug ) }}" title="{{ page.title }}">{{ page.title }}</a>
+                        <a {% if request.path == url_for("page" ,slug=page.slug ) %}class="current"{% endif %} href="{{ url_for("page" ,slug=page.slug ) }}" title="{{ page.title }}">{{ page.title }}</a>
                     {% endfor %}
                 </nav>
             </div>
